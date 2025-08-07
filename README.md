@@ -1,1 +1,1 @@
-i started php first time in life with my amit bose sir  hope it will become better i will make little prograssion with slow pace consistency
+I started learning PHP for the first time in my life with my teacher, Amit Bose Sir. I hope it gets better. I will make small progress at a slow pace, but with consistency.

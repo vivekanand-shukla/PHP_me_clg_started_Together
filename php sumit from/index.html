@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to travel form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to iit khadakpur US trip of Travel form</h1>
+        <p>Enter your details and submit this  to conform your participation in the trip </p>
+        <p class="submitMsg">Thanks for summiting the form . we are happy to see you joining the us trip </p>
+         <form action="index.php" method="post">
+           <input type="text" placeholder="Enter your name" name="name" id="name">
+           <input type="text" placeholder="Enter your  Age" name="Age" id="name">
+           <input type="text" placeholder="Enter your Gender" name="gender" id="gender">
+            <input type="email" name="email" id="email" placeholder="enter your email">
+            <input type="phone" name="phone" id="phone" placeholder="enter your phone">
+
+            <textarea name="desc" id="desc" placeholder="enter any other information here" cols="30" rows="10"></textarea>
+            <button class="btn">Submit</button>
+            <button class="btn">Reset</button>
+         </form>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+<!-- INSERT INTO `trip` (`sno`, `name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES ('1', 'textname', '23', 'male', 'this@this.com', '1234567890', 'this is my first php my admin massage', current_timestamp()); -->
